@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+.login{
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid black; */
+    text-align: center;
+    justify-content: center;
+    margin: 15rem 50rem;
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: -30px -30px 20px rgba( 0, 0, 0, 0.2);
+}
+.input{
+   font-size: 6.5vh;
+
+}
+input{
+   font-size: 2.5vh;
+   border-radius: 5px;
+   background-color: rgb(226, 226, 226);
+   border: none;
+}
+.button{
+   width: 300px;
+    margin: 8rem 0rem;
+}
+button{
+   width: 180px;
+   font-size: 4vh;
+   color: white;
+   margin-top: -4rem;
+   border-radius: 10px;
+   background-color: rgb(0, 165, 241);
+}
+button:hover{
+ box-shadow: -3px -3px 1px rgba( 0, 0, 0, 0.2);
+} 

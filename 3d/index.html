@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+  <style>
+      *{
+    margin: 0;
+    padding: 0;
+ }
+.typed{
+    height: 100vh;
+
+    background-size: cover;
+}
+.element{
+    color: rgb(33, 187, 46);
+    text-align: center;
+    align-items: center;
+    padding-top: 20%;
+}
+.parallax-window{
+    min-height: 40vh;
+    background: transparent;
+}
+.empty{
+    height: 200vh;
+}
+  </style>
+</head>
+<body>
+    <div class="typed">
+        <h1 class="element"></h1>
+    </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="vendors/typed/5.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="vendors/typed/4.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="vendors/typed/3.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="vendors/typed/2.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="vendors/typed/1.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/123.jpg"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>    
+    <script src="./VENDORS/typed.js"></script>
+    <script src="app.js"></script>
+    <script>let option = {
+        strings: [
+            'ASSALOMU ALAYKUM. ','BIZNING WEB SAXIFAMIZGA  XUSH KELIBSIZ.','BIZNI TANLAGANINGIZ UCHUN RAXMAT.'
+        ],
+        typeSpeed: 60,
+        backSpeed: 50,
+        backDelay: 2000,
+        
+    }
+    let typed = new Typed('.element',option);
+</script> 
+</body>
+</html>

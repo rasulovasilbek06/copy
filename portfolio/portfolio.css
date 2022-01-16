@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black;  */
+}
+.empty{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient( white,black );
+    /* border: 2px solid black;    */
+
+}
+.left-name{
+    font-size: 6vh;
+    color: ;
+}
